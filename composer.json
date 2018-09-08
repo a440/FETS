@@ -1,0 +1,24 @@
+{
+    "name": "elgersma/fets",
+    "description": "Free Event Ticketing System",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Steve Elgersma",
+            "email": "steve@a440.org"
+        }
+    ],
+    "require": {
+        "twitter/bootstrap": "^4.1",
+        "components/jquery": "^3.3",
+        "components/jqueryui": "^1.12",
+        "components/font-awesome": "^5.0",
+        "davehensley/highcharts": "^4.2"
+    },
+    "autoload": {
+      "classmap": [
+          "fet"
+      ]
+    }
+}
